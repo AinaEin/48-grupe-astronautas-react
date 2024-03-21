@@ -1,10 +1,14 @@
-import { PageAstronautas } from "./components/PageAstronautas";
+import { Header } from "./components/header/Header";
+import { Main } from "./components/main/Main";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
-    <div>
-      <PageAstronautas />
-    </div>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
